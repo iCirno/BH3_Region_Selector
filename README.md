@@ -16,7 +16,7 @@
 ^http:\/\/106\.15\.162\.73\/query_gameserver\?version=(\d*\.\d*\.\d*)_gf_(android(|_bilibili)|ios|pc)&t=(\d*)&uid=(\d*) http://106.15.162.73/query_gameserver?version=$1_gf_pc 302
 
 [Script]
-http-response ^https:\/\/global(\d*)\.bh3\.com\/query_dispatch\?version=(\d*\.\d*\.\d*)_gf_(android(|_bilibili)|ios|pc)&t=(\d*) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region_list.js
+http-response ^https:\/\/global(\d*)\.bh3\.com\/query_dispatch\?version=(\d*\.\d*\.\d*)_gf_(android(|_bilibili)|ios|pc)&t=(\d*) requires-body=1,max-size=0,script-path=https://github.com/FlintyLemming/BH3_Region_Selector/raw/master/bh3_region_list.js
 
 [MITM]
 hostname = global*.bh3.com
@@ -25,7 +25,7 @@ hostname = global*.bh3.com
 ## QuanX：
 ```
 [rewrite_remote]
-https://raw.githubusercontent.com/Mornwind/BH3_Region_Selector/master/bh3_region_rewrite_remote.conf, tag=BH3 Region Rewrite, enabled=true
+https://github.com/FlintyLemming/BH3_Region_Selector/raw/master/bh3_region_rewrite_remote.conf, tag=BH3 Region Rewrite, enabled=true
 
 [rewrite_local]
 ^https:\/\/global(\d*)\.bh3\.com\/query_dispatch\?version=(\d*\.\d*\.\d*)_gf_(android(|_bilibili)|ios|pc)&t=(\d*) url script-response-body bh3_region_list.js
