@@ -5,6 +5,9 @@
 >
 > Modify: [FlintyLemming](https://git.flinty.moe/root/bh3-switch)
 
+## 效果
+![](https://ddns.flinty.moe:8857/%E5%B4%A9%E5%9D%8F3%20%E8%B7%A8%E6%9C%8D%E5%8E%9F%E7%90%86%E6%B5%85%E6%9E%90/1.PNG)
+
 ## Surge 4:
 ```
 [URL Rewrite]
