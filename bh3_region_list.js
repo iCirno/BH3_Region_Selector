@@ -1,10 +1,12 @@
 /*
-「崩坏3（iOS版）服务器列表补全」
+「崩坏3（iOS版）国服服务器列表补全计划」
 By: Mornwind
 Reference: FlintyLemming / 霞ヶ丘詩羽x
 
+说明：渠道服登录入口已存在于桌面端，但目前被官方隐藏，可能是因为账号系统不同，尚未准备好，故暂时从本计划中删除。
+
 README:
-https://github.com/Mornwind/BH3_Region_Selector/blob/master/README.md
+https://github.com/FlintyLemming/BH3_Region_Selector/blob/master/README.md
 */
 
 let list = JSON.parse($response.body);
